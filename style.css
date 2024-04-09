@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+@font-face{
+    font-family: 'Inter';
+    src: url('/Fonts/Inter/Inter-SemiBold.ttf');
+}
+
+body{
+    background-color: #F0F2F4;
+}
+
 /* Header */
 .header{
     background-color: #0E677C;
@@ -31,29 +40,29 @@ ul.social-medias{
 li.language a[active]{
     color: white;
     opacity: 100%;
-    font-weight: 600
+    font-weight: 600;
 }
 
 li.language a{
-    font-size: 18px;
+    font-size: 1rem;
     text-decoration: none;
     color: white;
     opacity: 30%;
     line-height: 18px;
+    font-family: 'Inter';
 }
 
 li{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        list-style: none;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    display: flex;
 }
 
 /* Subheader */
 
 .subheader{
     height: 96px;
-    background-color: gray;
     padding: 0;
 }
 
@@ -61,19 +70,35 @@ ul.list-items{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 18px;
+    gap: 10px;
 }
 
 li.list-item a{
     text-decoration: none;
-    font-size: 18px;
     color: black;
+    font-family: 'Inter';
+    font-weight: 500;
 }
 
-h3 span.green-dot{
+li.list-item a[active]{
+    color: #0E677C;
+}
+
+.contact-box h3{
+    font-family: 'Inter';
+    font-size: 1rem;
+}
+
+.contact-box div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.green-dot{
+    border-radius: 50%;
     width: 6px;
     height: 6px;
-    border-color:#44FF00;
-
+    background-color: #0E677C;
 }
-
