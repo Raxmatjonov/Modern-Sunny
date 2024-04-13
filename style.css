@@ -6,7 +6,7 @@
 
 @font-face{
     font-family: 'Inter';
-    src: url('/Fonts/Inter/Inter-SemiBold.ttf');
+    src: url('/Fonts/Inter/Inter-Medium.ttf');
 }
 
 body{
@@ -69,6 +69,8 @@ li{
 .subheader{
     height: 96px;
     padding: 0;
+    background-color: white;
+    display: flex;
 }
 
 ul.list-items{
@@ -106,4 +108,52 @@ li.list-item a[active]{
     width: 6px;
     height: 6px;
     background-color: #0E677C;
+}
+
+/* First Section */
+.modern-s-h{
+    display: flex;
+    margin-top: 64px;
+    flex-direction: column;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info h1{
+    width: 474px;
+    font-size: 68px;
+    font-weight: bold;
+    font-family: "inter";
+}
+
+.info p{
+    width: 50%;
+    font-size: 20px;
+    color: #121014;
+    align-self: self-end;
+    line-height: 28px;
+}
+
+.images-box{
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.box-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+}
+
+.box{
+    height: 187px;
+    flex-grow: 1;
+    border-radius: 24px;
+    background-color: #4c4b4d;
 }
