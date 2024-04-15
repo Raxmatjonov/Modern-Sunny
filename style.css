@@ -18,6 +18,28 @@ body{
     margin: auto;
 }
 
+.title{
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: #121014;
+}
+
+.description{
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 23px;
+    font-size: 1rem;
+    color: #686868;
+}
+
+.subtitle{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    color: #0E677C;
+}
+
 /* Header */
 .header{
     background-color: #0E677C;
@@ -110,11 +132,13 @@ li.list-item a[active]{
     background-color: #0E677C;
 }
 
+
 /* First Section */
 .modern-s-h{
     display: flex;
     margin-top: 64px;
     flex-direction: column;
+    gap: 64px;
 }
 
 .info{
@@ -138,13 +162,12 @@ li.list-item a[active]{
 }
 
 .images-box{
-    margin-top: 64px;
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 
-.box-wrapper{
+.image-box-wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -156,4 +179,35 @@ li.list-item a[active]{
     flex-grow: 1;
     border-radius: 24px;
     background-color: #4c4b4d;
+}
+
+.about-us{
+    margin-top: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.about-us-info{
+    width: 50%;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second-images{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+/* Contact us */
+
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
