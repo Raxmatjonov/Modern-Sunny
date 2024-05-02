@@ -35,6 +35,10 @@
         height: 16px;
     }
 
+    .intro-section{
+        margin-top: 28px;
+    }
+
     .intro-section-info{
         flex-direction: column;
         gap: 12px;
@@ -53,6 +57,92 @@
         width: 100%;
         display: block;
         align-self: start;
+    }
+
+    .about-us{
+        flex-direction: column;
+        gap: 28px;
+        margin-top: 60px;
+    }
+
+    .title{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .subtitle{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .description{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .box{
+        height: 77px;
+    }
+
+    /* Contact us */
+    .leave-comment-box{
+        flex-direction: column;
+        padding: 24px 16px 24px 16px;
+    }
+
+    .leave-comment-info{
+        gap: 8px;
+    }
+
+    #form-container{
+        align-self: flex-start;
+        width: 100%;
+    }
+
+    .leave-comment-form{
+        width: 100%;
+    }
+
+    .submit-button-box p{
+        display: none;
+    }
+
+    .submit-btn{
+        width: 100%;
+    }
+
+    .name-input,
+    .number-input{
+        height: 52px;
+    }
+
+    .social-medias-box{
+        flex-direction: column;
+        padding: 16px;
+        gap: 12px;
+    }
+
+    .social-medias{
+        gap: 4px;
+        width: 100%;
+    }
+
+    .social-medias-description{
+        align-self: flex-start;
+        line-height: 16px;
+        font-size: 14px;
+    }
+
+    .social-media{
+        flex: 1;
+
+    }
+
+    .social-media h4{
+        display: none;
     }
 
   }
