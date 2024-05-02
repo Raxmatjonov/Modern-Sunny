@@ -1,0 +1,58 @@
+@media (max-width: 767px) {
+    .header{
+        display: none;
+    }
+
+    .subheader{
+        background-color: transparent;
+    }
+
+    .menu-nav{
+        display: none;
+    }
+
+    .contact-box{
+        display: none;
+    }
+
+    .logo{
+        height: 40px;
+        width: 175px;
+    }
+
+    .burger{
+        background-color: #fff;
+        border-radius: 8px;
+        width: 36px;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .burger img{
+        width: 18px;
+        height: 16px;
+    }
+
+    .intro-section-info{
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .intro-title{
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .intro-description{
+        display: none
+    }
+
+    .intro-description-mobile{
+        width: 100%;
+        display: block;
+        align-self: start;
+    }
+
+  }

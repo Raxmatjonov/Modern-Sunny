@@ -4,351 +4,161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="rwd.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..700&display=swap');
+        </style>
 </head>
 <body>
     
-    
+    <section class="header">
+       <div class="container navigation-wrapper">
+            <nav class="languages-nav">
+                <ul>
+                    <li class="language">
+                        <a href="" active>Rus</a>
+                    </li>
 
-        <header class="header">
-            <nav class="header-nav container">
-                <ul class="languages">
-                    <li class="language"><a active href="#">Ru</a></li>
-                    <li class="language"><a href="#">Eng</a></li>
-                    <li class="language"><a href="#">Uz</a></li>
-                </ul>
+                    <li class="language">
+                        <a href="">Eng</a>
+                    </li>
 
-                <ul class="social-medias">
-                    <li class="social-media"><a href="#"><img src="Icons/icon/jam-icons/outline & logos/instagram.svg" alt=""></a></li>
-                    <li class="social-media"><a href="#"><img src="Icons/icon/jam-icons/outline & logos/youtube.svg" alt=""></a></li>
-                    <li class="social-media"><a href="#"><img src="Icons/icon/jam-icons/outline & logos/facebook.svg" alt=""></a></li>
-                    <li class="social-media"><a href="#"><img src="Icons/icon/jam-icons/outline & logos/linkedin.svg" alt=""></a></li>
+                    <li class="language">
+                        <a href="">Uz</a>
+                    </li>
                 </ul>
             </nav>
-        </header>
 
-        <div class="subheader">
-            <nav class="subheader-nav container">
-                <img class="logo" src="Images/LOGO.png" alt="Logo">
-                <ul class="list-items">
-                    <li class="list-item navigation"><a href="#">О компании</a></li>
-                    <li class="list-item navigation"><a href="#">Продукты</a></li>
-                    <li class="list-item navigation"><a href="#">Галерея</a></li>
-                    <li class="list-item navigation"><a href="#">Общая информация</a></li>
-                    <li class="list-item navigation"><a href="#">Блог</a></li>
-                    <li class="list-item navigation"><a href="#">Контакты</a></li>
+            <nav class="social-medias-nav">
+                <ul>
+                    <li class="nav-item">
+                        <a href="#" >
+                            <img src="Icons/icon/jam-icons/outline & logos/facebook.svg" alt="">
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" >
+                            <img src="Icons/icon/jam-icons/outline & logos/instagram.svg" alt="">
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" >
+                            <img src="Icons/icon/jam-icons/outline & logos/youtube.svg" alt="">
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" >
+                            <img src="Icons/icon/jam-icons/outline & logos/linkedin.svg" alt="">
+                        </a>
+                    </li>
+
                 </ul>
-                <div class="contact-box">
-                    <h3 class="contact-num">+998 95 552 06 06</h3>
-                    <div>
-                        <div class="green-dot"></div>
-                        <h3>Мы на связи</h3>
-                    </div>
-                    
+            </nav>
+       </div>
+    </section>
+
+    <section class="subheader">
+        <div class="subheader-wrapper container ">
+            <img class="logo" src="Images/LOGO.png" alt="">
+            <nav class="menu-nav">
+                <ul>
+                    <li class="menu-item">
+                        <a href="#">О компании</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="#">Продукты</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="#">Галерея</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="#">Общая информация</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="#">Блог</a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="contact-box">
+                <h4 class="phone-number">+998 95 552 06 06</h4>
+                <div class="contact-us-wrapper">
+                    <div class="animating-dot"></div>
+                    <h6 class="contact-us-txt"> Мы на связи</h6>
                 </div>
-            </nav>
+            </div>
+
+            <div class="burger">
+                <img src="Images/Vector.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="container intro-section">
+        <div class="intro-section-info">
+            <h1 class="intro-title">MODERN <br> SUNNY HOME</h1>
+            <p class="intro-description">Приобретая наш дом, вы получаете не только готовое жилье, 
+                но и спокойствие, зная, что ваш дом соответствует высочайшим стандартам качества и безопасности.</p>
+            <p class="intro-description-mobile">Лидер в отрасли сборных <br> строительных конструкций</p>
         </div>
 
-        <section class="container modern-s-h">
-            <div class="info">
-                <h1>MODERN SUNNY HOME</h1>
-                <p class="description">Приобретая наш дом, вы получаете не только готовое жилье, 
-                    но и спокойствие, зная, что ваш дом соответствует высочайшим стандартам качества и безопасности.</p>
+        <div class="images-box">
+            <div class="image-box-wrapper">
+                <div class="box">
+                </div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
             </div>
-
-            <div class="images-box">
-                <div class="image-box-wrapper">
-                    <div class="box">
-                        <img src="Images/Rectangle 13.png" alt="">
-                    </div>
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
-                </div>
-                <div class="image-box-wrapper">
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
-                </div>
-                <div class="image-box-wrapper">
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
-                </div>
+            <div class="image-box-wrapper">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
             </div>
-        </section>
-
-        <section class="container about-us">
-            <div class="about-us-info">
-                <h4 class="subtitle">о нас</h4>
-                <h1 class="title ">Строим современные и экологичные дома от 7 дней</h1>
-                <p class="description">- Наша компания специализируется на производстве и строительстве модульных домов легкой инструкции, доступных по цене  и производимые в короткие сроки.
-                </p>
+            <div class="image-box-wrapper">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
             </div>
-            <div class="second-images">
-                <div class="image-box-wrapper">
-                    <div class="box"></div>
-                    <div class="box"></div>
-                </div>
-                <div class="image-box-wrapper">
-                    <div class="box"></div>
-                    <div class="box"></div>
-                </div>
-                <div class="image-box-wrapper">
-                    <div class="box"></div>
-                    <div class="box"></div>
-                </div>
+        </div>
+    </section>
+
+    <section class="container about-us">
+        <div class="about-us-info">
+            <h4 class="subtitle">о нас</h4>
+            <h1 class="title ">Строим современные и экологичные дома от 7 дней</h1>
+            <p class="description">- Наша компания специализируется на производстве и строительстве модульных домов легкой инструкции, доступных по цене  и производимые в короткие сроки.
+            </p>
+        </div>
+        <div class="second-images">
+            <div class="image-box-wrapper">
+                <div class="box"></div>
+                <div class="box"></div>
             </div>
-        </section>
-
-        <section class="container contact-us">
-            <div class="leave-comment-box white-container">
-                <div class="leave-comment-info ">
-                    <h1 class="title">Заказать обратный звонок</h1>
-                    <p class="description">Заполните форму, и мы с радостью проконсультируем вас и поможем сделать выбор.</p>
-                </div>
-                <div class="leave-comment-form">
-                    <form action="get" id="form-container">
-                        <input type="text" placeholder="Ваше имя" name="name" id="user-name">
-                        <input type="text" id="user-number" name="user-number">
-                    </form>
-                </div>   
+            <div class="image-box-wrapper">
+                <div class="box"></div>
+                <div class="box"></div>
             </div>
-            <div class="social-medias-box white-container">
-                <h6 class="description">Подписывайтесь на наши соц сетях <br> и будьте в курсе о новостях</h6>
-                <div class="social-medias">
-                    <div class="social-media gray-container">
-                        <img src="Icons/Sochial networks.svg" alt="">
-                        <h4>User name</h4>
-                    </div>
-                    <div class="social-media gray-container">
-                        <img src="Icons/Sochial networks-1.svg" alt="">
-                        <h4>User name</h4>
-                    </div>
-                    <div class="social-media gray-container">
-                        <img src="Icons/Sochial networks-2.svg" alt="">
-                        <h4>User name</h4>
-                    </div>
-                    <div class="social-media gray-container">
-                        <img src="Icons/Sochial networks-3.svg" alt="">
-                        <h4>User name</h4>
-                    </div>
-                </div>
+            <div class="image-box-wrapper">
+                <div class="box"></div>
+                <div class="box"></div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="advantages-section container">
-            <h4 class="subtitle">Преимущества</h4>
-            <div class="advantages-info">
-                <h1 class="title">Готовый, комфортный<br>и привлекательный<br>дизайн</h1>
-                <p class="description ">Мы меняем стереотип о том, что строительство<br>занимает много времени и сил, с нами вы получите дом<br>с готовым дизайном и ремонтом всего за 2-3 недели.
-                </p>
-            </div>
-            <div class="advantages-items">
-                <div class="adv-wrapper">
-                    <div class="adv-box">
-                        <img src="Icons/icon/wired-outline-12-layers 2.svg" alt="">
-                        <h4 class="adv-title">Экономичность </h4>
-                        <p class="adv-description">Все материалы модульных (префабричных) домов, являются производственными и не требуют больших усилий при монтаже. </p>
-                    </div>
-
-                    <div class="adv-box">
-                        <img src="Icons/icon/wired-outline-12-layers 2-1.svg" alt="">
-                        <h4 class="adv-title"> Устойчивы к землетрясениям</h4>
-                        <p class="adv-description">Благодаря своей легкой конструкции модульные (префабричные) дома устойчивы к землетрясениям. 
-                        </p>
-                    </div>
-
-                    <div class="adv-box">
-                        <img src="Icons/icon/wired-outline-12-layers 2-2.svg" alt="">
-                        <h4 class="adv-title">Их можно перемещать </h4>
-                        <p class="adv-description">Модульные (префабричные) дома портативны. Их можно демонтировать и переместить в другое место.
-                        </p>
-                    </div>
-                    
-                </div>
-
-                <div class="adv-wrapper">
-                    <div class="adv-box">
-                        <img src="Icons/icon/wired-outline-12-layers 2-3.svg" alt="">
-                        <h4 class="adv-title">Индивидуальный дизайн </h4>
-                        <p class="adv-description">По желанию клиента можно спроектировать дом по индивидульному дизайну.
-                        </p>
-                    </div>
-
-                    <div class="adv-box">
-                        <img src="Icons/icon/wired-outline-12-layers 2-4.svg" alt="">
-                        <h4 class="adv-title">Экономия времени</h4>
-                        <p class="adv-description">Поскольку материалы, необходимые для создания конструкции производятся заранее, а его сборка осуществляется в короткие сроки. 
-                        </p>
-                    </div>
-
-                    <div class="adv-box">
-                        <img src="Icons/icon/wired-outline-12-layers 2-5.svg" alt="">
-                        <h4 class="adv-title">Готовые проекты</h4>
-                        <p class="adv-description">При желании можно очень быстро выбрать готовый проект, так как уже существует множество разработанных проектов. </p>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-
-        <section class="products container">
-            <div class="products-info">
-            <h4 class="subtitle">Преимущества</h4>
-            <h1 class="title">Наши продукты</h1>
-            </div>
-
-            <div class="products-items">
-                <div class="products-item pi-1">
-                    <h1>Проект (2+1)<br> 70м2</h1>
-                    <div class="plus-box">
-                        <img src="Images/Paper Plus.png" alt="">
-                    </div>
-                </div>
-
-                <div class="products-item pi-1">
-                    <h1>Проект (2+1)<br> 70м2</h1>
-                    <div class="plus-box">
-                        <img src="Images/Paper Plus.png" alt="">
-                    </div>
-                </div>
-
-                <div class="products-item pi-1">
-                    <h1>Проект (2+1)<br> 70м2</h1>
-                    <div class="plus-box">
-                        <img src="Images/Paper Plus.png" alt="">
-                    </div>
-                </div>
-
-
-                <div class="extra-products">
-                    <div class="extra-product">
-                        <h1>Проект (2+1)<br> 70м2</h1>
-                    </div>
-
-                    <div class="extra-product">
-                        <h1>Проект (2+1)<br> 70м2</h1>
-                    </div>
-
-                    <div class="extra-product-btn">
-                        <p>Нажмите кнопку чтобы перейти на<br>страницу “Все проекты”</p>
-
-                        <div class="add-product-box">
-                            <h1>Все проекты</h1>
-                            <div class="plus-box-add">
-                                <img src="Images/Paper Plus.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <section class="blog container">
-            <h4 class="subtitle">Блог</h4>
-            <div class="blog-info">
-                <h1 class="title">Новости<br>компании</h1>
-                <p class="description ">Здесь должно быть короткий текс о новостях компании-<br>здесь будет отоброжаться толька 4 последних новостей остальные<br>новости о компании будет в разделе Новости или БЛОГ 
-                </p>
-            </div>
-
-            <div class="blog-items">
-                <div class="blog-item">
-                    <img src="Images/Frame 136.png" alt="">
-                    <div class="blog-item-info">
-                        <h4 class="blog-title">Заголовок новости не больше чем 2 строки...</h4>
-                        <p class="blog-description">Здесь должно быть короткая описание новости не больше чем 
-                            3 строки</p>
-                    </div>
-                </div>
-
-                <div class="blog-item">
-                    <img src="Images/Frame 136.png" alt="">
-                    <div class="blog-item-info">
-                        <h4 class="blog-title">Заголовок новости не больше чем 2 строки...</h4>
-                        <p class="blog-description">Здесь должно быть короткая описание новости не больше чем 
-                            3 строки</p>
-                    </div>
-                </div>
-
-                <div class="blog-item">
-                    <img src="Images/Frame 136.png" alt="">
-                    <div class="blog-item-info">
-                        <h4 class="blog-title">Заголовок новости не больше чем 2 строки...</h4>
-                        <p class="blog-description">Здесь должно быть короткая описание новости не больше чем 
-                            3 строки</p>
-                    </div>
-                </div>
-
-                <div class="blog-item">
-                    <img src="Images/Frame 136.png" alt="">
-                    <div class="blog-item-info">
-                        <h4 class="blog-title">Заголовок новости не больше чем 2 строки...</h4>
-                        <p class="blog-description">Здесь должно быть короткая описание новости не больше чем 
-                            3 строки</p>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <section class="questions container">
-            <div class="questions-info">
-                <h4 class="subtitle">Вопросы</h4>
-                <h1 class="title">Часто задаваемые<br>вопросы
-                </h1>
-            </div>
-
-
-            <div class="questions-items">
-                <div class="questions-item-wrapper">
-                    <div class="questions-item">
-                        <h4 class="question-txt">Consequat malesuada fringilla <br>
-                            duis ornare arcu fermentum. </h4>
-                        <img src="Images/Plus.png" alt="">
-                    </div>
-    
-                    <div class="questions-item">
-                        <h4 class="question-txt">Consequat malesuada fringilla <br>
-                            duis ornare arcu fermentum. </h4>
-                        <img src="Images/Plus.png" alt="">
-                    </div>
-    
-                    <div class="questions-item">
-                        <h4 class="question-txt">Consequat malesuada fringilla <br>
-                            duis ornare arcu fermentum. </h4>
-                        <img src="Images/Plus.png" alt="">
-                    </div>
-                </div>
-
-                <div class="questions-item-wrapper">
-                    <div class="questions-item">
-                        <h4 class="question-txt">Consequat malesuada fringilla <br>
-                            duis ornare arcu fermentum. </h4>
-                        <img src="Images/Plus.png" alt="">
-                    </div>
-    
-                    <div class="questions-item">
-                        <h4 class="question-txt">Consequat malesuada fringilla <br>
-                            duis ornare arcu fermentum. </h4>
-                        <img src="Images/Plus.png" alt="">
-                    </div>
-    
-                    <div class="questions-item">
-                        <h4 class="question-txt">Consequat malesuada fringilla <br>
-                            duis ornare arcu fermentum. </h4>
-                        <img src="Images/Plus.png" alt="">
-                    </div>
-                </div>
-
-
-            </div>
-           
-        </section>
 </body>
 </html>
