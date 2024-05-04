@@ -55,12 +55,49 @@ h1, h2, h3, h4, h5, h6, p, a{
 }
 
 .green-card{
-    border-radius: 20px;
+    border-radius: 24px;
     background-color: #0E677C;
     display: flex;
     flex-direction: column;
     padding: 20px 2px 2px 20px;
 }
+
+.green-card-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.green-card-title{
+    font-size: 20px;
+    line-height: 31px;
+    font-weight: 400;
+}
+
+.green-card-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.green-card-btn-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.green-card-plus-box{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
 /* RWD */
 
 /* /RWD */
@@ -115,7 +152,15 @@ h1, h2, h3, h4, h5, h6, p, a{
 /* Subheader */
 
 .subheader{
+    width: 100%;
+    z-index: 10;
+    margin-top: 0;
+    top: 0px;
+    position: sticky;
     background-color: #fff;
+    border-bottom: 1px solid var(--Line-color, rgba(18, 16, 20, 0.05));
+    background: var(--Background-BLUR, rgba(255, 255, 255, 0.4));
+    backdrop-filter: blur(120.6px);
 }
 
 .subheader-wrapper{
@@ -365,13 +410,12 @@ gap: 36px;
 
 .social-medias-box{
     width: 100%;
-    height: 120px;
     margin-top: 4px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    padding: 0 40px;
+    padding: 20px 40px;
     gap: 20px;
 }
 
@@ -410,5 +454,306 @@ gap: 36px;
     margin-left: 10px;
 }
 
+/* /Contact-us */
 
+/* Advantages */
+
+.advantages-section{
+    margin-top: 64px;
+}
+
+.advantages-info{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.advantages-info p{
+    align-self: self-end;
+}
+
+.advantages-items{
+    margin-top: 74px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.adv-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+}
+
+.adv-box{
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-radius: 24px;
+    background-color: #ffffff;
+    padding:30px 20px 30px 20px;
+}
+
+.adv-box img{
+    width: 48px;
+    height: 48px;
+}
+
+.adv-title{
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #121014;
+}
+
+.adv-description{
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+
+
+/* Products */
+
+.products{
+    margin-top: 64px;
+}
+
+/* .products-info h1{
+    margin-top: 24px;
+} */
+
+.products-info{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.products-items{
+display: flex;
+align-items: center;
+flex-direction: column;
+gap: 74px;
+margin-top: 74px;
+}
+
+.products-item{
+    height: 600px;
+    width: 100%;
+    border-radius: 36px;
+    padding: 40px 20px 20px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(Images/image\ 12.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.products-item-title{
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.plus-box{
+    background-color: #fff;
+    border-radius: 28px;
+    width: 125px;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.extra-products{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    width: 100%;            
+}
+
+.extra-product{
+    padding: 20px;
+    flex:1;
+    border-radius: 24px;
+    background-image: url(Images/image\ 12.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.green-card-title{
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.add-extra-product{
+    flex: 1;
+    height: 250px;
+    padding: 20px 2px 2px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.add-product-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.plus-box-add{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.plus-box-add img{
+    width: 30px;
+    height: 30px;
+}
+
+
+/* Blog */
+
+.blog{
+    margin-top: 64px;
+}
+
+.blog-info{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.blog-info p{
+align-self: flex-end;
+font-size: 16px;
+}
+
+.blog-items{
+    width: 100%;
+    margin-top: 74px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.blog-item{
+    border-radius: 24px;
+    position: relative;
+    flex: 1;
+}
+
+.blog-item img{
+    width: 100%;
+}
+
+.blog-item-info{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 26px 26px 26px 20px;
+    top: 313px;
+}
+
+.blog-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 27px;
+    color: #121014;
+}
+
+.blog-description{
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #686868;
+}
+
+/* Questions */
+
+.questions{
+    margin-top: 224px;
+    margin-bottom: 30px;
+}
+
+.questions-info{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.questions-items{
+    gap: 4px;
+    width: 100%;
+    display: flex;
+    margin-top: 24px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.questions-item-wrapper{
+    flex: 1;
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+}
+
+.questions-item{
+    height: 154px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding:46px 24px 46px 24px;
+    box-sizing: border-box;
+}
+
+.extra-question-item{
+    height: 154px;
+    padding:16px 2px 2px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.extra-question-item h5{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    color: #fff;
+}
+
+.green-card-plus-box img{
+    width: 24px;
+    height: 24px;
+}
 
